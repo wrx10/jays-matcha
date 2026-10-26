@@ -1,0 +1,17 @@
+{
+  "name": "Jay’s Matcha",
+  "short_name": "Jay’s Matcha",
+  "description": "متجر Jay’s Matcha الإلكتروني للماتشا المصنوعة بحب في أبها وخميس مشيط",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAF7F2",
+  "theme_color": "#445B32",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

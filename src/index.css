@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    overflow-x: hidden;
+    width: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    font-family: 'Alexandria', 'Tajawal', -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100vw;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+.font-marhey {
+  font-family: 'Marhey', cursive, sans-serif;
+}
+
+.font-alexandria {
+  font-family: 'Alexandria', sans-serif;
+}
+
+/* Vintage Gingham background:
+   - وردي هادئ وباهت (soft muted dusty pink)
+   - أخضر غامق نسبيًا لكن باهت وناعم (darker, yet soft muted vintage green)
+   - Clear checkered pattern (واضحة), vintage & soft (ناعمة وليست ألوانها قوية أو فاقعة)
+*/
+.bg-vintage-gingham {
+  background-color: #FAF6F0;
+  background-image: 
+    linear-gradient(90deg, rgba(225, 160, 172, 0.38) 50%, transparent 50%),
+    linear-gradient(rgba(74, 102, 64, 0.32) 50%, transparent 50%);
+  background-size: 52px 52px;
+}
+
+/* Also provide alias for bg-gingham-soft */
+.bg-gingham-soft {
+  background-color: #FAF6F0;
+  background-image: 
+    linear-gradient(90deg, rgba(225, 160, 172, 0.38) 50%, transparent 50%),
+    linear-gradient(rgba(74, 102, 64, 0.32) 50%, transparent 50%);
+  background-size: 52px 52px;
+}
+
+/* Vintage decorative dashed / stitched border effect */
+.border-vintage-stitch {
+  border: 2px dashed #C8DCB8;
+}
+
+/* Vintage scalloped border container effect */
+.vintage-card-shadow {
+  box-shadow: 0 4px 20px -2px rgba(95, 115, 80, 0.12), 0 2px 6px -1px rgba(225, 160, 172, 0.15);
+}
+
+/* Custom delicate scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FDFDFD;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D7E7C8;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7A8E68;
+}
